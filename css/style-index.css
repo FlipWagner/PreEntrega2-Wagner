@@ -62,7 +62,8 @@ button:hover{
     text-align: center;
     justify-content: center;
     flex-direction: column;
-    padding: 150px 15px;
+    padding: 150px;
+    margin-left: 50vh;
 }
 #caracteristicas .container{
     display: flex;
@@ -72,4 +73,5 @@ button:hover{
     justify-content: center;
     flex-direction: column;
     padding-bottom: 100px;
+    margin-left: 50vh;
 }
