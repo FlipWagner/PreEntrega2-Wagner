@@ -44,7 +44,7 @@ button:hover{
     justify-content: center;
     text-align: center;
     flex-direction: column;
-    height: 60vh;
+    height: 70vh;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -56,10 +56,20 @@ button:hover{
 }
 /* #somos */
 #somos .container{
+    display: flex;
+    display: grid;
+    align-items: center;
     text-align: center;
-    padding: 200px 15px;
+    justify-content: center;
+    flex-direction: column;
+    padding: 150px 15px;
 }
-/* #nuestros-p */
-#nuestros-p .container{
+#caracteristicas .container{
+    display: flex;
+    display: grid;
+    align-items: center;
     text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 100px;
 }
