@@ -1,0 +1,94 @@
+/* Comentario en CSS */
+/* Font Family - GoogleFont */
+*{
+    font-family: 'Syne', sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+/* General de Textos y Listas */
+h1 {font-size: 3rem;}
+h2 {font-size: 2rem;}
+h3 {font-size: 1.5rem;}
+p {font-size: 1.2rem;}
+ul {list-style: none;}
+
+body{
+    margin: 0;
+}
+
+/* CSS - Bootstrap */
+
+.img-master{
+    min-height: 90vh ;
+    position: relative;
+    color: #ffffff;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.color-overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+@media (max-width: 768px){
+    .img-master{
+        min-height: 50vh;
+    }
+}
+
+section .container-form{
+    width: 40%;
+    padding: 40px;
+    border-radius: 0;
+    position: absolute;
+    display:flex;
+    display: grid;
+    left: 30%;
+    top: 20%;
+    transform: translate(-50% -50%);
+    color: #ffffff;
+}
+.row{
+    /* box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px; */
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+    /* box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px; */
+}
+.col-md-7{
+    padding: 10px;
+}
+.col-md-5{
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 10px;
+}
+.form-control{
+    height: 30px;
+    background-color: #ffffff;
+    color: black;
+    font-size: 1rem;
+    border-radius: 5px;
+    box-sizing: none! important;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+.selector-p{
+    border-radius: 5px;
+    font-size: 1rem;
+    color: #000000ab;
+}
+.d-flex p{
+    font-size: 1rem;
+    padding-left: 25px;
+}
+.bi{
+    font-size: 2rem;
+}
+@media only screen and (max-width:768px){
+    .container-form{
+        width: 100%;
+        position: relative;
+        left: 50%;
+        top: 50%;
+    }
+}
+/* CSS - Bootstrap */
